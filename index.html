@@ -23,17 +23,18 @@
                   Myriam Schönenberger
                 </p>
                 <p>
-                  I'm finishing my Master's at the
-                  <a href="https://gsai.kaist.ac.kr/">Kim Jaechul Graduate School of AI</a> at KAIST this summer (August 2026),
+                  I completed my Master's at the
+                  <a href="https://gsai.kaist.ac.kr/">Kim Jaechul Graduate School of AI</a> at KAIST in August 2026,
                   where I worked in the <a href="https://ailab.kaist.ac.kr/">AI &amp; Probabilistic Reasoning (AIPR) Lab</a>
                   with <a href="https://ailab.kaist.ac.kr/users/kekim">Kee-Eung Kim</a>.
                   My thesis develops a framework for discovering control symmetries directly from transition data,
                   by identifying group actions whose orbits remain tangent to the manifold of valid
-                  state–action–next-state transitions.
+                  state–action–next-state transitions. This work appears at
+                  <a href="https://openreview.net/forum?id=xL2eR7x00h">CoRL 2026</a>.
                 </p>
                 <p>
                   More broadly, I'm interested in how structure — symmetries, invariances, and the geometry of
-                  dynamics — can make reinforcement learning agents more sample-efficient, robust, and safe
+                  dynamics — can make reinforcement learning and world models more sample-efficient, robust, and safe
                   to deploy in the real world.
                 </p>
                 <p>
@@ -50,7 +51,7 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/myriams.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/myriams.jpg" class="hoverZoomLink"></a>
+                <a href="images/myriams.jpg"><img style="width:100%;max-width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 40%;border-radius:50%;" alt="profile photo" src="images/myriams.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -67,6 +68,31 @@
           </tbody></table>
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <!-- Paper 0: TMT, CoRL 2026 -->
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:middle;min-width:120px">
+                <img src="images/papers/tmt_corl2026.png" alt="Ground-truth vs. TMT-NN discovered Reacher symmetry generator" style="width:100%;max-width:160px">
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://openreview.net/forum?id=xL2eR7x00h">
+                  <span class="papertitle">Discovering Control Symmetries via Transition Manifold Tangency</span>
+                </a>
+                <br>
+                <span class="author"><strong>Myriam Schönenberger</strong>, Kee-Eung Kim</span>
+                <br>
+                <span class="journal">Conference on Robot Learning (CoRL)</span>,
+                <span class="year">2026</span>
+                <br>
+                <a href="https://openreview.net/forum?id=xL2eR7x00h">OpenReview</a> /
+                <a href="https://github.com/mschoene/tmt">Code</a>
+                <p>
+                  Infers joint state and action symmetry transformations from logged robot transitions by
+                  requiring their infinitesimal motion to stay tangent to the transition manifold, without
+                  assuming the behavior policy's data is symmetric.
+                </p>
+              </td>
+            </tr>
 
             <!-- Paper 1: Higgs to diphoton SUSY -->
             <tr>
